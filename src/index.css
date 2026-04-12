@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold-400: #F5C518;
+  --color-gold-500: #D4AF37;
+  --color-gold-600: #B8972E;
+  --color-purple-600: #6B46C1;
+  --color-purple-700: #553C9A;
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #D4AF37 0%, #F5C518 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-bg {
+  background: linear-gradient(135deg, #D4AF37, #F5C518);
+}
+
+.hero-bg {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                    url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&q=80');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Темный режим */
+.dark {
+  --tw-bg-opacity: 1;
+}
+/* Эффект шапки при скролле */
+#header.scrolled {
+  background-color: rgba(255, 255, 255, 0.98);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+#header.scrolled .nav-link {
+  color: #6B46C1;
+}
+
+#header.scrolled .nav-link:hover {
+  color: #7C3AED;
+}
