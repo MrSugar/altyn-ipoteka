@@ -282,7 +282,7 @@ useEffect(() => {
                 <a href="https://wa.me/77072553722" target="_blank" className="block text-green-600 font-medium hover:underline">Написать в WhatsApp</a>
               </div>
 
-              {/* Правильная карта для адреса: Бейбитшилик 14, БЦ Marden, Астана */}
+              {/* КАРТА */}
                   <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-inner">
                         <iframe 
                                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2503.8!2d71.4295!3d51.1289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424585a0f5b5b5b5%3A0x5f5f5f5f5f5f5f5f!2z0JHQsNC70YvQutCw0Y8g0JHQtdC70L3QvtC80LjQvdC-0L3QvtC5IDE0LCDQodCw0L3QsNC70YvQutCw0Y8!5e0!3m2!1sru!2skz!4v1740000000000" 
@@ -299,7 +299,7 @@ useEffect(() => {
         </div>
       </section>
 
-      {/* ОТЗЫВЫ — 5 готовых блоков */}
+      {/* ОТЗЫВЫ */}
       <section id="reviews" className="py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-4xl font-bold text-center mb-16">{current.reviews}</h2>
