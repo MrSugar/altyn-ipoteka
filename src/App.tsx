@@ -24,6 +24,43 @@ function App() {
       phone: "Номер телефона",
       comment: "Комментарий...",
       astana: "Астана",
+      logoSubtitle: "Ипотека без стресса",
+      aboutDesc: "Мы — команда профессиональных ипотечных консультантов с опытом более 7 лет. Помогаем тысячам казахстанцев купить жильё на выгодных условиях.",
+      videoAbout: "Видео о компании",
+      videoWatch: "Посмотрите, как мы помогаем нашим клиентам получить ипотеку мечты",
+      approvedMortgages: "500+ одобренных ипотек",
+      happyClients: "98% довольных клиентов",
+      servicesDesc: "Полный спектр услуг по ипотечному кредитованию",
+      service1Title: "Подбор ипотеки",
+      service1Desc: "Анализ условий 20+ банков и подбор самого выгодного варианта",
+      service2Title: "Ипотечный калькулятор",
+      service2Desc: "Точный расчёт платежа и переплаты",
+      service3Title: "Госпрограммы",
+      service3Desc: "7-20-25, Орда, Молодёжная и другие льготные программы",
+      service4Title: "Сопровождение сделки",
+      service4Desc: "Полное сопровождение от документов до ключей",
+      service5Title: "Рефинансирование",
+      service5Desc: "Снижение ставки по существующей ипотеке",
+      service6Title: "Бесплатная консультация",
+      service6Desc: "Онлайн и оффлайн консультации",
+      pathDesc: "Простой и понятный путь к вашему новому дому",
+      step1Title: "Консультация",
+      step1Desc: "Звонок или заявка → бесплатная консультация и предварительный расчёт",
+      step2Title: "Сбор документов",
+      step2Desc: "Помогаем быстро собрать все необходимые документы",
+      step3Title: "Подача и одобрение",
+      step3Desc: "Подаём заявку в банк и получаем одобрение",
+      step4Title: "Сделка и ключи",
+      step4Desc: "Сопровождаем до подписания договора и получения ключей",
+      branchesDesc: "Наш главный офис в Астане",
+      address: "ул. Бейбитшилик 14, БЦ Marden",
+      writeWhatsApp: "Написать в WhatsApp",
+      reviewsDesc: "Что говорят о нас наши клиенты",
+      videoReviews: "Видеоотзывы наших клиентов",
+      contactUs: "Свяжитесь с нами",
+      leaveRequest: "Оставить заявку",
+      footer: "© 2026 Altyn Ipoteka. Все права защищены.",
+      footerAddress: "Бейбитшилик 14, БЦ Marden, Астана"
     },
     kz: {
       about: "Біз туралы",
@@ -43,12 +80,49 @@ function App() {
       phone: "Телефон нөмірі",
       comment: "Пікір...",
       astana: "Астана",
+      logoSubtitle: "Стресссіз ипотека",
+      aboutDesc: "Біз — 7 жылдан астам тәжірибесі бар кәсіби ипотекалық кеңесшілер тобы. Мыңдаған қазақстандықтарға тиімді шарттармен баспана сатып алуға көмектесеміз.",
+      videoAbout: "Компания туралы бейне",
+      videoWatch: "Біздің клиенттерімізге армандаған ипотеканы алуға қалай көмектесетінімізді көріңіз",
+      approvedMortgages: "500+ мақұлданған ипотека",
+      happyClients: "98% риза клиенттер",
+      servicesDesc: "Ипотекалық несиелеу бойынша толық қызметтер спектрі",
+      service1Title: "Ипотеканы таңдау",
+      service1Desc: "20+ банктің шарттарын талдау және ең тиімді нұсқаны таңдау",
+      service2Title: "Ипотекалық калькулятор",
+      service2Desc: "Төлем мен артық төлемді дәл есептеу",
+      service3Title: "Мембағдарламалар",
+      service3Desc: "7-20-25, Орда, Жастар және басқа жеңілдікті бағдарламалар",
+      service4Title: "Мәмілені сүйемелдеу",
+      service4Desc: "Құжаттардан кілтке дейін толық сүйемелдеу",
+      service5Title: "Қайта қаржыландыру",
+      service5Desc: "Қолданыстағы ипотека бойынша мөлшерлемені төмендету",
+      service6Title: "Тегін кеңес",
+      service6Desc: "Онлайн және офлайн кеңестер",
+      pathDesc: "Жаңа үйіңізге апаратын қарапайым және түсінікті жол",
+      step1Title: "Кеңес",
+      step1Desc: "Қоңырау немесе өтініш → тегін кеңес және алдын ала есептеу",
+      step2Title: "Құжаттарды жинау",
+      step2Desc: "Барлық қажетті құжаттарды тез жинауға көмектесеміз",
+      step3Title: "Өтініш беру және мақұлдау",
+      step3Desc: "Банкке өтініш беріп, мақұлдау аламыз",
+      step4Title: "Мәміле және кілттер",
+      step4Desc: "Шартқа қол қойылып, кілттер алынғанға дейін сүйемелдейміз",
+      branchesDesc: "Астанадағы бас кеңсеміз",
+      address: "Бейбітшілік көшесі 14, Marden БО",
+      writeWhatsApp: "WhatsApp-қа жазу",
+      reviewsDesc: "Клиенттеріміз біз туралы не айтады",
+      videoReviews: "Клиенттеріміздің бейне пікірлері",
+      contactUs: "Бізбен байланысыңыз",
+      leaveRequest: "Өтініш қалдыру",
+      footer: "© 2026 Altyn Ipoteka. Барлық құқықтар қорғалған.",
+      footerAddress: "Бейбітшілік 14, Marden БО, Астана"
     }
   };
 
   const current = t[lang];
 
-useEffect(() => {
+  useEffect(() => {
     const header = document.getElementById('header');
     
     const handleScroll = () => {
@@ -78,71 +152,87 @@ useEffect(() => {
     setIsMenuOpen(false);
   };
 
+  const services = [
+    { icon: Home, titleKey: 'service1Title', descKey: 'service1Desc' },
+    { icon: Calculator, titleKey: 'service2Title', descKey: 'service2Desc' },
+    { icon: Award, titleKey: 'service3Title', descKey: 'service3Desc' },
+    { icon: Star, titleKey: 'service4Title', descKey: 'service4Desc' },
+    { icon: Users, titleKey: 'service5Title', descKey: 'service5Desc' },
+    { icon: Phone, titleKey: 'service6Title', descKey: 'service6Desc' },
+  ];
+
+  const steps = [
+    { step: "01", titleKey: 'step1Title', descKey: 'step1Desc' },
+    { step: "02", titleKey: 'step2Title', descKey: 'step2Desc' },
+    { step: "03", titleKey: 'step3Title', descKey: 'step3Desc' },
+    { step: "04", titleKey: 'step4Title', descKey: 'step4Desc' },
+  ];
+
   return (
     <div className="min-h-screen bg-white text-gray-900">
       {/* HEADER */}
-<header className="fixed top-0 w-full z-50 transition-all duration-300"
+      <header className="fixed top-0 w-full z-50 transition-all duration-300"
         id="header">
-  <div className="max-w-7xl mx-auto px-6 py-5">
-    <div className="flex items-center justify-between">
-      
-      {/* Логотип */}
-      <div 
-        onClick={() => scrollTo('top')}
-        className="flex items-center gap-3 cursor-pointer"
-      >
-        <div className="flex items-center gap-2 text-3xl font-bold">
-          <span className="bg-gradient-to-r from-[#D4AF37] via-[#F5C518] to-[#E8B923] bg-clip-text text-transparent">
-            Altyn
-          </span>
-          <span className="text-[#6B46C1]">Ipoteka</span>
+        <div className="max-w-7xl mx-auto px-6 py-5">
+          <div className="flex items-center justify-between">
+            
+            {/* Логотип */}
+            <div 
+              onClick={() => scrollTo('top')}
+              className="flex items-center gap-3 cursor-pointer"
+            >
+              <div className="flex items-center gap-2 text-3xl font-bold">
+                <span className="bg-gradient-to-r from-[#D4AF37] via-[#F5C518] to-[#E8B923] bg-clip-text text-transparent">
+                  Altyn
+                </span>
+                <span className="text-[#6B46C1]">Ipoteka</span>
+              </div>
+              <p className="text-sm text-gray-500 hidden sm:block">{current.logoSubtitle}</p>
+            </div>
+
+            {/* Меню */}
+            <nav className="hidden md:flex items-center gap-8 text-base font-medium">
+              <button onClick={() => scrollTo('about')} className="hover:text-purple-600 transition-colors nav-link">{current.about}</button>
+              <button onClick={() => scrollTo('services')} className="hover:text-purple-600 transition-colors nav-link">{current.services}</button>
+              <button onClick={() => scrollTo('path')} className="hover:text-purple-600 transition-colors nav-link">{current.path}</button>
+              <button onClick={() => scrollTo('reviews')} className="hover:text-purple-600 transition-colors nav-link">{current.reviews}</button>
+              <button onClick={() => scrollTo('branches')} className="hover:text-purple-600 transition-colors nav-link">{current.branches}</button>
+              <button onClick={() => scrollTo('contacts')} className="hover:text-purple-600 transition-colors nav-link">{current.contacts}</button>
+            </nav>
+
+            {/* Правая часть */}
+            <div className="flex items-center gap-6">
+              <div className="flex bg-gray-100 rounded-full p-1 text-sm font-medium">
+                <button 
+                  onClick={() => setLang('ru')} 
+                  className={`px-5 py-1.5 rounded-full transition-all ${lang === 'ru' ? 'bg-white shadow text-black' : 'text-gray-600 hover:text-gray-900'}`}
+                >
+                  RU
+                </button>
+                <button 
+                  onClick={() => setLang('kz')} 
+                  className={`px-5 py-1.5 rounded-full transition-all ${lang === 'kz' ? 'bg-white shadow text-black' : 'text-gray-600 hover:text-gray-900'}`}
+                >
+                  KZ
+                </button>
+              </div>
+
+              <div className="hidden md:flex flex-col text-right text-sm leading-tight">
+                <a href="tel:+77072553722" className="hover:text-amber-600">+7 707 255 37 22</a>
+                <a href="tel:+77078781443" className="hover:text-amber-600">+7 707 878 14 43</a>
+              </div>
+
+              <a href="https://wa.me/77072553722" target="_blank" className="text-green-600">
+                <Phone size={26} />
+              </a>
+
+              <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="md:hidden p-2">
+                {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
+              </button>
+            </div>
+          </div>
         </div>
-        <p className="text-sm text-gray-500 hidden sm:block">Ипотека без стресса</p>
-      </div>
-
-      {/* Меню */}
-      <nav className="hidden md:flex items-center gap-8 text-base font-medium">
-        <button onClick={() => scrollTo('about')} className="hover:text-purple-600 transition-colors nav-link">О нас</button>
-        <button onClick={() => scrollTo('services')} className="hover:text-purple-600 transition-colors nav-link">Услуги</button>
-        <button onClick={() => scrollTo('path')} className="hover:text-purple-600 transition-colors nav-link">Ваш путь</button>
-        <button onClick={() => scrollTo('reviews')} className="hover:text-purple-600 transition-colors nav-link">Отзывы</button>
-        <button onClick={() => scrollTo('branches')} className="hover:text-purple-600 transition-colors nav-link">Филиалы</button>
-        <button onClick={() => scrollTo('contacts')} className="hover:text-purple-600 transition-colors nav-link">Контакты</button>
-      </nav>
-
-      {/* Правая часть */}
-      <div className="flex items-center gap-6">
-        <div className="flex bg-gray-100 rounded-full p-1 text-sm font-medium">
-          <button 
-            onClick={() => setLang('ru')} 
-            className={`px-5 py-1.5 rounded-full transition-all ${lang === 'ru' ? 'bg-white shadow text-black' : 'text-gray-600 hover:text-gray-900'}`}
-          >
-            RU
-          </button>
-          <button 
-            onClick={() => setLang('kz')} 
-            className={`px-5 py-1.5 rounded-full transition-all ${lang === 'kz' ? 'bg-white shadow text-black' : 'text-gray-600 hover:text-gray-900'}`}
-          >
-            KZ
-          </button>
-        </div>
-
-        <div className="hidden md:flex flex-col text-right text-sm leading-tight">
-          <a href="tel:+77072553722" className="hover:text-amber-600">+7 707 255 37 22</a>
-          <a href="tel:+77078781443" className="hover:text-amber-600">+7 707 878 14 43</a>
-        </div>
-
-        <a href="https://wa.me/77072553722" target="_blank" className="text-green-600">
-          <Phone size={26} />
-        </a>
-
-        <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="md:hidden p-2">
-          {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
-        </button>
-      </div>
-    </div>
-  </div>
-</header>
+      </header>
 
       {/* HERO */}
       <section className="min-h-screen bg-[linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url('https://images.unsplash.com/photo-1560518883-ce09059eeffa')] bg-cover bg-center flex items-center text-white pt-20">
@@ -173,8 +263,7 @@ useEffect(() => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-6">{current.about}</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Мы — команда профессиональных ипотечных консультантов с опытом более 7 лет. 
-              Помогаем тысячам казахстанцев купить жильё на выгодных условиях.
+              {current.aboutDesc}
             </p>
           </div>
 
@@ -192,20 +281,20 @@ useEffect(() => {
                 <div className="aspect-video bg-gray-900 rounded-2xl overflow-hidden mb-6 flex items-center justify-center">
                   <div className="text-center text-white">
                     <div className="text-6xl mb-4">▶️</div>
-                    <p className="text-lg">Видео о компании</p>
+                    <p className="text-lg">{current.videoAbout}</p>
                   </div>
                 </div>
-                <p className="text-gray-600">Посмотрите, как мы помогаем нашим клиентам получить ипотеку мечты</p>
+                <p className="text-gray-600">{current.videoWatch}</p>
               </div>
 
               <div className="flex gap-6">
                 <div className="flex-1 bg-white p-6 rounded-3xl shadow text-center">
                   <Award className="text-[#D4AF37] mx-auto mb-4" size={40} />
-                  <h4 className="font-semibold text-lg">500+ одобренных ипотек</h4>
+                  <h4 className="font-semibold text-lg">{current.approvedMortgages}</h4>
                 </div>
                 <div className="flex-1 bg-white p-6 rounded-3xl shadow text-center">
                   <Users className="text-[#6B46C1] mx-auto mb-4" size={40} />
-                  <h4 className="font-semibold text-lg">98% довольных клиентов</h4>
+                  <h4 className="font-semibold text-lg">{current.happyClients}</h4>
                 </div>
               </div>
             </div>
@@ -217,23 +306,16 @@ useEffect(() => {
       <section id="services" className="py-24">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-4xl font-bold text-center mb-4">{current.services}</h2>
-          <p className="text-center text-gray-600 mb-16 max-w-2xl mx-auto">Полный спектр услуг по ипотечному кредитованию</p>
+          <p className="text-center text-gray-600 mb-16 max-w-2xl mx-auto">{current.servicesDesc}</p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
-              { icon: Home, title: "Подбор ипотеки", desc: "Анализ условий 20+ банков и подбор самого выгодного варианта" },
-              { icon: Calculator, title: "Ипотечный калькулятор", desc: "Точный расчёт платежа и переплаты" },
-              { icon: Award, title: "Госпрограммы", desc: "7-20-25, Орда, Молодёжная и другие льготные программы" },
-              { icon: Star, title: "Сопровождение сделки", desc: "Полное сопровождение от документов до ключей" },
-              { icon: Users, title: "Рефинансирование", desc: "Снижение ставки по существующей ипотеке" },
-              { icon: Phone, title: "Бесплатная консультация", desc: "Онлайн и оффлайн консультации" },
-            ].map((service, i) => (
+            {services.map((service, i) => (
               <div key={i} className="bg-white border border-gray-100 p-8 rounded-3xl hover:shadow-xl hover:border-[#D4AF37] transition-all group">
                 <div className="w-14 h-14 bg-gradient-to-br from-[#D4AF37] to-[#F5C518] text-white rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition">
                   <service.icon size={28} />
                 </div>
-                <h3 className="text-2xl font-semibold mb-4">{service.title}</h3>
-                <p className="text-gray-600">{service.desc}</p>
+                <h3 className="text-2xl font-semibold mb-4">{current[service.titleKey as keyof typeof current]}</h3>
+                <p className="text-gray-600">{current[service.descKey as keyof typeof current]}</p>
               </div>
             ))}
           </div>
@@ -244,19 +326,14 @@ useEffect(() => {
       <section id="path" className="py-24 bg-gradient-to-br from-[#6B46C1] to-[#553C9A] text-white">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h2 className="text-4xl font-bold mb-6">{current.path}</h2>
-          <p className="text-xl text-purple-200 mb-16 max-w-2xl mx-auto">Простой и понятный путь к вашему новому дому</p>
+          <p className="text-xl text-purple-200 mb-16 max-w-2xl mx-auto">{current.pathDesc}</p>
 
           <div className="grid md:grid-cols-4 gap-8">
-            {[
-              { step: "01", title: "Консультация", desc: "Звонок или заявка → бесплатная консультация и предварительный расчёт" },
-              { step: "02", title: "Сбор документов", desc: "Помогаем быстро собрать все необходимые документы" },
-              { step: "03", title: "Подача и одобрение", desc: "Подаём заявку в банк и получаем одобрение" },
-              { step: "04", title: "Сделка и ключи", desc: "Сопровождаем до подписания договора и получения ключей" },
-            ].map((item, i) => (
+            {steps.map((item, i) => (
               <div key={i} className="bg-white/10 backdrop-blur-lg border border-white/20 p-8 rounded-3xl hover:bg-white/20 transition-all group">
                 <div className="text-5xl font-bold text-white/30 mb-4 group-hover:text-white/50 transition">{item.step}</div>
-                <h3 className="text-2xl font-semibold mb-4">{item.title}</h3>
-                <p className="text-purple-100">{item.desc}</p>
+                <h3 className="text-2xl font-semibold mb-4">{current[item.titleKey as keyof typeof current]}</h3>
+                <p className="text-purple-100">{current[item.descKey as keyof typeof current]}</p>
                 {i < 3 && <ArrowRight className="mx-auto mt-8 text-white/40 group-hover:text-white/70" size={28} />}
               </div>
             ))}
@@ -268,115 +345,114 @@ useEffect(() => {
       <section id="branches" className="py-24 bg-gray-50">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h2 className="text-4xl font-bold mb-4">{current.branches}</h2>
-          <p className="text-gray-600 mb-12">Наш главный офис в Астане</p>
+          <p className="text-gray-600 mb-12">{current.branchesDesc}</p>
 
           <div className="max-w-2xl mx-auto bg-white rounded-3xl shadow-xl overflow-hidden">
             <div className="p-12">
               <MapPin className="mx-auto text-[#D4AF37] mb-6" size={70} />
               <h3 className="text-3xl font-bold mb-3">{current.astana}</h3>
-              <p className="text-xl text-gray-700 mb-8">ул. Бейбитшилик 14, БЦ Marden</p>
+              <p className="text-xl text-gray-700 mb-8">{current.address}</p>
 
               <div className="space-y-4 text-left text-lg mb-10">
                 <a href="tel:+77072553722" className="block hover:text-[#D4AF37]">+7 707 255 37 22</a>
                 <a href="tel:+77078781443" className="block hover:text-[#D4AF37]">+7 707 878 14 43</a>
-                <a href="https://wa.me/77072553722" target="_blank" className="block text-green-600 font-medium hover:underline">Написать в WhatsApp</a>
+                <a href="https://wa.me/77072553722" target="_blank" className="block text-green-600 font-medium hover:underline">{current.writeWhatsApp}</a>
               </div>
 
               {/* КАРТА */}
-                  {/* Карта — точный адрес */}
-<div className="rounded-2xl overflow-hidden border border-gray-200 shadow-inner">
-  <iframe 
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.12!2d71.4211733!3d51.1704818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424586d590a7180b%3A0xcbfabe3dec586381!2z0JHQsNC70YvQutCw0Y8g0JHQtdC70L3QvtC80LjQvdC-0L3QvtC5IDE0!5e0!3m2!1sru!2skz!4v1740000000000" 
-    width="100%" 
-    height="420" 
-    style={{ border: 0 }} 
-    allowFullScreen 
-    loading="lazy" 
-    referrerPolicy="no-referrer-when-downgrade"
-  ></iframe>
-</div>
+              <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-inner">
+                <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.12!2d71.4211733!3d51.1704818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424586d590a7180b%3A0xcbfabe3dec586381!2z0JHQsNC70YvQutCw0Y8g0JHQtdC70L3QvtC80LjQvdC-0L3QvtC5IDE0!5e0!3m2!1sru!2skz!4v1740000000000" 
+                  width="100%" 
+                  height="420" 
+                  style={{ border: 0 }} 
+                  allowFullScreen 
+                  loading="lazy" 
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-{/* ОТЗЫВЫ */}
-<section id="reviews" className="py-24 bg-gray-50">
-  <div className="max-w-7xl mx-auto px-6">
-    <h2 className="text-4xl font-bold text-center mb-4">{current.reviews}</h2>
-    <p className="text-center text-gray-600 mb-12">Что говорят о нас наши клиенты</p>
+      {/* ОТЗЫВЫ */}
+      <section id="reviews" className="py-24 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-6">
+          <h2 className="text-4xl font-bold text-center mb-4">{current.reviews}</h2>
+          <p className="text-center text-gray-600 mb-12">{current.reviewsDesc}</p>
 
-    {/* Горизонтальный скролл отзывов */}
-    <div className="mb-20">
-      <div className="flex gap-6 overflow-x-auto pb-8 snap-x snap-mandatory scrollbar-hide">
-        {[
-          { name: "Алия Закирова", city: "Астана", text: "Хочу выразить огромную благодарность команде Алтын Ипотека , в частности Ляззат , Шынгысу, Карлыгаш, Арыстану  Ребята выполняют свою работу от души, оперативно и сплоченно 🫶🏼 От А до Яопровождают и были рядом пока квартиру не оформили на меня 😎🙏 Очень благодарна , что именно с ними прошла этот путь, покупке моей первой квартиры 🥹🥹🥹🫶🏼", rating: 5 },
-          { name: "Айгерим Батыр", city: "Астана", text: "Хочу выразить огромную благодарность ипотечному брокеру Ляззат руководителю компании Altyn Ипотека и менеджеру Куаныш за помощь в оформлении кредита! Ляззат — настоящий профессионал своего дела: всё подробно объяснила, помогла с документами, сопровождала на каждом этапе и всегда была на связи. Благодаря её внимательности и ответственности оформление ипотеки прошло легко и без стресса. Рекомендую Altyn Ипотека и лично Ляззат всем, кто хочет оформить ипотеку быстро, надёжно и с уверенностью в результате! 🙏.", rating: 5 },
-          { name: "Ботагоз", city: "Астана", text: "Благодарю за прекрасно выполненную работу! Всегда на связи,все подскажут - с вами я была спокойная, не переживала ни о чем❤️ благодарю еще раз", rating: 5 },
-          { name: "Ерболат Тлеуов", city: "Астана", text: "Спасибо большое Altynipoteka !!особенно хочу выразить огромную благодарность брокеру Нурасыл!!Очень довольна его работой,Всё объяснил понятно, Грамотно проконсультировал, ответил на все вопросы,помог быстро оформить сделку, всегда был на связи,всё организовал максимально быстро и удобно. Благодаря ему приобрела свою квартиру Спасибо за профессионализм,рекомендую", rating: 5 },
-          { name: "Нурсултан Бартаев", city: "Астана", text: "Спасибо большое за Вашу работу! Блогодоря Вам получилось оформить ипотеку! Отдельное спасибо менеджеру Нурасылу! Всем рекомендую!", rating: 5 },
-        ].map((review, i) => (
-          <div key={i} className="min-w-[340px] bg-white p-8 rounded-3xl shadow-sm snap-center">
-            <div className="flex gap-1 text-[#D4AF37] mb-6">{'★'.repeat(review.rating)}</div>
-            <p className="text-gray-700 italic mb-6">«{review.text}»</p>
-            <div>
-              <div className="font-semibold">{review.name}</div>
-              <div className="text-sm text-gray-500">{review.city}</div>
+          {/* Горизонтальный скролл отзывов */}
+          <div className="mb-20">
+            <div className="flex gap-6 overflow-x-auto pb-8 snap-x snap-mandatory scrollbar-hide">
+              {[
+                { name: "Алия Закирова", city: "Астана", text: "Хочу выразить огромную благодарность команде Алтын Ипотека , в частности Ляззат , Шынгысу, Карлыгаш, Арыстану  Ребята выполняют свою работу от души, оперативно и сплоченно 🫶🏼 От А до Яопровождают и были рядом пока квартиру не оформили на меня 😎🙏 Очень благодарна , что именно с ними прошла этот путь, покупке моей первой квартиры 🥹🥹🥹🫶🏼", rating: 5 },
+                { name: "Айгерим Батыр", city: "Астана", text: "Хочу выразить огромную благодарность ипотечному брокеру Ляззат руководителю компании Altyn Ипотека и менеджеру Куаныш за помощь в оформлении кредита! Ляззат — настоящий профессионал своего дела: всё подробно объяснила, помогла с документами, сопровождала на каждом этапе и всегда была на связи. Благодаря её внимательности и ответственности оформление ипотеки прошло легко и без стресса. Рекомендую Altyn Ипотека и лично Ляззат всем, кто хочет оформить ипотеку быстро, надёжно и с уверенностью в результате! 🙏.", rating: 5 },
+                { name: "Ботагоз", city: "Астана", text: "Благодарю за прекрасно выполненную работу! Всегда на связи,все подскажут - с вами я была спокойная, не переживала ни о чем❤️ благодарю еще раз", rating: 5 },
+                { name: "Ерболат Тлеуов", city: "Астана", text: "Спасибо большое Altynipoteka !!особенно хочу выразить огромную благодарность брокеру Нурасыл!!Очень довольна его работой,Всё объяснил понятно, Грамотно проконсультировал, ответил на все вопросы,помог быстро оформить сделку, всегда был на связи,всё организовал максимально быстро и удобно. Благодаря ему приобрела свою квартиру Спасибо за профессионализм,рекомендую", rating: 5 },
+                { name: "Нурсултан Бартаев", city: "Астана", text: "Спасибо большое за Вашу работу! Блогодоря Вам получилось оформить ипотеку! Отдельное спасибо менеджеру Нурасылу! Всем рекомендую!", rating: 5 },
+              ].map((review, i) => (
+                <div key={i} className="min-w-[340px] bg-white p-8 rounded-3xl shadow-sm snap-center">
+                  <div className="flex gap-1 text-[#D4AF37] mb-6">{'★'.repeat(review.rating)}</div>
+                  <p className="text-gray-700 italic mb-6">«{review.text}»</p>
+                  <div>
+                    <div className="font-semibold">{review.name}</div>
+                    <div className="text-sm text-gray-500">{review.city}</div>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
-        ))}
-      </div>
-    </div>
 
-    {/* Блок с видео */}
-    <div>
-      <h3 className="text-3xl font-bold text-center mb-10">Видеоотзывы наших клиентов</h3>
-      
-      <div className="flex gap-6 overflow-x-auto pb-8 snap-x snap-mandatory scrollbar-hide">
-        {[
-          "https://www.youtube.com/embed/dQw4w9wgxcq",   // ← замени на реальные видео
-          "https://www.youtube.com/embed/VIDEO_ID_2",
-          "https://www.youtube.com/embed/VIDEO_ID_3",
-          "https://www.youtube.com/embed/VIDEO_ID_4",
-          "https://www.youtube.com/embed/VIDEO_ID_5",
-          "https://www.youtube.com/embed/VIDEO_ID_6",
-          "https://www.youtube.com/embed/VIDEO_ID_7",
-          "https://www.youtube.com/embed/VIDEO_ID_8",
-          "https://www.youtube.com/embed/VIDEO_ID_9",
-          "https://www.youtube.com/embed/VIDEO_ID_10",
-        ].map((videoUrl, i) => (
-          <div key={i} className="min-w-[420px] snap-center">
-            <div className="aspect-video bg-black rounded-2xl overflow-hidden shadow-lg">
-              <iframe 
-                src={videoUrl}
-                title={`Видеоотзыв ${i + 1}`}
-                className="w-full h-full"
-                allowFullScreen
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              ></iframe>
+          {/* Блок с видео */}
+          <div>
+            <h3 className="text-3xl font-bold text-center mb-10">{current.videoReviews}</h3>
+            
+            <div className="flex gap-6 overflow-x-auto pb-8 snap-x snap-mandatory scrollbar-hide">
+              {[
+                "https://www.youtube.com/embed/dQw4w9WgXcQ",
+                "https://www.youtube.com/embed/dQw4w9WgXcQ",
+                "https://www.youtube.com/embed/dQw4w9WgXcQ",
+                "https://www.youtube.com/embed/dQw4w9WgXcQ",
+                "https://www.youtube.com/embed/dQw4w9WgXcQ",
+                "https://www.youtube.com/embed/dQw4w9WgXcQ",
+                "https://www.youtube.com/embed/dQw4w9WgXcQ",
+                "https://www.youtube.com/embed/dQw4w9WgXcQ",
+                "https://www.youtube.com/embed/dQw4w9WgXcQ",
+                "https://www.youtube.com/embed/dQw4w9WgXcQ",
+              ].map((videoUrl, i) => (
+                <div key={i} className="min-w-[420px] snap-center">
+                  <div className="aspect-video bg-black rounded-2xl overflow-hidden shadow-lg">
+                    <iframe 
+                      src={videoUrl}
+                      title={`Видеоотзыв ${i + 1}`}
+                      className="w-full h-full"
+                      allowFullScreen
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    ></iframe>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
-        ))}
-      </div>
-    </div>
-  </div>
-</section>
+        </div>
+      </section>
 
       {/* КОНТАКТЫ */}
       <section id="contacts" className="py-24 bg-gray-900 text-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="text-4xl font-bold mb-10">Свяжитесь с нами</h2>
+              <h2 className="text-4xl font-bold mb-10">{current.contactUs}</h2>
               <div className="space-y-8 text-xl">
                 <a href="tel:+77072553722" className="block hover:text-amber-400">+7 707 255 37 22</a>
                 <a href="tel:+77078781443" className="block hover:text-amber-400">+7 707 878 14 43</a>
-                <div className="pt-4 text-lg">ул. Бейбитшилик 14, БЦ Marden<br />Астана, Казахстан</div>
+                <div className="pt-4 text-lg">{current.address}<br />{current.astana}, Қазақстан</div>
               </div>
             </div>
 
             <div className="bg-white/10 backdrop-blur p-10 rounded-3xl">
-              <h3 className="text-2xl font-semibold mb-8">Оставить заявку</h3>
+              <h3 className="text-2xl font-semibold mb-8">{current.leaveRequest}</h3>
               <form className="space-y-6">
                 <input type="text" placeholder={current.name} className="w-full bg-white/10 border border-white/30 rounded-2xl px-6 py-4 text-white placeholder-gray-400" />
                 <input type="tel" placeholder={current.phone} className="w-full bg-white/10 border border-white/30 rounded-2xl px-6 py-4 text-white placeholder-gray-400" />
@@ -392,8 +468,8 @@ useEffect(() => {
       </section>
 
       <footer className="bg-black text-gray-400 py-10 text-center text-sm">
-        © 2026 Altyn Ipoteka. Все права защищены.<br />
-        Бейбитшилик 14, БЦ Marden, Астана
+        {current.footer}<br />
+        {current.footerAddress}
       </footer>
     </div>
   );
