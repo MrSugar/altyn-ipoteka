@@ -283,15 +283,16 @@ useEffect(() => {
               </div>
 
               {/* КАРТА */}
-                  <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-inner">
-                        <iframe 
-                                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2503.8!2d71.4295!3d51.1289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424585a0f5b5b5b5%3A0x5f5f5f5f5f5f5f5f!2z0JHQsNC70YvQutCw0Y8g0JHQtdC70L3QvtC80LjQvdC-0L3QvtC5IDE0LCDQodCw0L3QsNC70YvQutCw0Y8!5e0!3m2!1sru!2skz!4v1740000000000" 
-                                   width="100%" 
-                                    height="420" 
-                                      style={{ border: 0 }} 
-                                        allowFullScreen 
-                                          loading="lazy" 
-                                            referrerPolicy="no-referrer-when-downgrade"
+                  {/* Карта — точный адрес */}
+<div className="rounded-2xl overflow-hidden border border-gray-200 shadow-inner">
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.12!2d71.4211733!3d51.1704818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424586d590a7180b%3A0xcbfabe3dec586381!2z0JHQsNC70YvQutCw0Y8g0JHQtdC70L3QvtC80LjQvdC-0L3QvtC5IDE0!5e0!3m2!1sru!2skz!4v1740000000000" 
+    width="100%" 
+    height="420" 
+    style={{ border: 0 }} 
+    allowFullScreen 
+    loading="lazy" 
+    referrerPolicy="no-referrer-when-downgrade"
   ></iframe>
 </div>
             </div>
@@ -299,58 +300,67 @@ useEffect(() => {
         </div>
       </section>
 
-      {/* ОТЗЫВЫ */}
-      <section id="reviews" className="py-24 bg-white">
-        <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-4xl font-bold text-center mb-16">{current.reviews}</h2>
+{/* ОТЗЫВЫ */}
+<section id="reviews" className="py-24 bg-gray-50">
+  <div className="max-w-7xl mx-auto px-6">
+    <h2 className="text-4xl font-bold text-center mb-4">{current.reviews}</h2>
+    <p className="text-center text-gray-600 mb-12">Что говорят о нас наши клиенты</p>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
-              {
-                name: "Айгуль Смагулова",
-                city: "Астана",
-                text: "Спасибо команде Altyn Ipoteka! Помогли оформить ипотеку по программе 7-20-25. Всё быстро, прозрачно и без лишней бюрократии. Очень рекомендую!",
-                rating: 5
-              },
-              {
-                name: "Нурлан Ахметов",
-                city: "Астана",
-                text: "Рефинансировали мою ипотеку. Платёж снизился на 48 000 тенге в месяц! Профессионалы своего дела. Большое спасибо!",
-                rating: 5
-              },
-              {
-                name: "Мария Ким",
-                city: "Астана",
-                text: "Очень приятные и компетентные сотрудники. Сопровождали всю сделку до конца. Получили квартиру в новом ЖК. Спасибо вам огромное!",
-                rating: 5
-              },
-              {
-                name: "Ерболат Тлеуов",
-                city: "Астана",
-                text: "Подобрали лучшую ставку среди всех банков. Сделали всё под ключ. Работать с вами — одно удовольствие.",
-                rating: 5
-              },
-              {
-                name: "Айжан Рахимова",
-                city: "Астана",
-                text: "Спасибо за помощь с документами и одобрением. Всё объясняли спокойно и понятно. Теперь у нас своя квартира! ❤️",
-                rating: 5
-              }
-            ].map((review, i) => (
-              <div key={i} className="bg-white border border-gray-100 p-8 rounded-3xl shadow-sm hover:shadow-xl transition-all">
-                <div className="flex gap-1 text-[#D4AF37] mb-6">
-                  {'★'.repeat(review.rating)}
-                </div>
-                <p className="text-gray-700 italic leading-relaxed mb-8">«{review.text}»</p>
-                <div>
-                  <div className="font-semibold">{review.name}</div>
-                  <div className="text-sm text-gray-500">{review.city}</div>
-                </div>
-              </div>
-            ))}
+    {/* Горизонтальный скролл отзывов */}
+    <div className="mb-20">
+      <div className="flex gap-6 overflow-x-auto pb-8 snap-x snap-mandatory scrollbar-hide">
+        {[
+          { name: "Алия Закирова", city: "Астана", text: "Хочу выразить огромную благодарность команде Алтын Ипотека , в частности Ляззат , Шынгысу, Карлыгаш, Арыстану  Ребята выполняют свою работу от души, оперативно и сплоченно 🫶🏼 От А до Яопровождают и были рядом пока квартиру не оформили на меня 😎🙏 Очень благодарна , что именно с ними прошла этот путь, покупке моей первой квартиры 🥹🥹🥹🫶🏼", rating: 5 },
+          { name: "Айгерим Батыр", city: "Астана", text: "Хочу выразить огромную благодарность ипотечному брокеру Ляззат руководителю компании Altyn Ипотека и менеджеру Куаныш за помощь в оформлении кредита! Ляззат — настоящий профессионал своего дела: всё подробно объяснила, помогла с документами, сопровождала на каждом этапе и всегда была на связи. Благодаря её внимательности и ответственности оформление ипотеки прошло легко и без стресса. Рекомендую Altyn Ипотека и лично Ляззат всем, кто хочет оформить ипотеку быстро, надёжно и с уверенностью в результате! 🙏.", rating: 5 },
+          { name: "Ботагоз", city: "Астана", text: "Благодарю за прекрасно выполненную работу! Всегда на связи,все подскажут - с вами я была спокойная, не переживала ни о чем❤️ благодарю еще раз", rating: 5 },
+          { name: "Ерболат Тлеуов", city: "Астана", text: "Спасибо большое Altynipoteka !!особенно хочу выразить огромную благодарность брокеру Нурасыл!!Очень довольна его работой,Всё объяснил понятно, Грамотно проконсультировал, ответил на все вопросы,помог быстро оформить сделку, всегда был на связи,всё организовал максимально быстро и удобно. Благодаря ему приобрела свою квартиру Спасибо за профессионализм,рекомендую", rating: 5 },
+          { name: "Нурсултан Бартаев", city: "Астана", text: "Спасибо большое за Вашу работу! Блогодоря Вам получилось оформить ипотеку! Отдельное спасибо менеджеру Нурасылу! Всем рекомендую!", rating: 5 },
+        ].map((review, i) => (
+          <div key={i} className="min-w-[340px] bg-white p-8 rounded-3xl shadow-sm snap-center">
+            <div className="flex gap-1 text-[#D4AF37] mb-6">{'★'.repeat(review.rating)}</div>
+            <p className="text-gray-700 italic mb-6">«{review.text}»</p>
+            <div>
+              <div className="font-semibold">{review.name}</div>
+              <div className="text-sm text-gray-500">{review.city}</div>
+            </div>
           </div>
-        </div>
-      </section>
+        ))}
+      </div>
+    </div>
+
+    {/* Блок с видео */}
+    <div>
+      <h3 className="text-3xl font-bold text-center mb-10">Видеоотзывы наших клиентов</h3>
+      
+      <div className="flex gap-6 overflow-x-auto pb-8 snap-x snap-mandatory scrollbar-hide">
+        {[
+          "https://www.youtube.com/embed/dQw4w9wgxcq",   // ← замени на реальные видео
+          "https://www.youtube.com/embed/VIDEO_ID_2",
+          "https://www.youtube.com/embed/VIDEO_ID_3",
+          "https://www.youtube.com/embed/VIDEO_ID_4",
+          "https://www.youtube.com/embed/VIDEO_ID_5",
+          "https://www.youtube.com/embed/VIDEO_ID_6",
+          "https://www.youtube.com/embed/VIDEO_ID_7",
+          "https://www.youtube.com/embed/VIDEO_ID_8",
+          "https://www.youtube.com/embed/VIDEO_ID_9",
+          "https://www.youtube.com/embed/VIDEO_ID_10",
+        ].map((videoUrl, i) => (
+          <div key={i} className="min-w-[420px] snap-center">
+            <div className="aspect-video bg-black rounded-2xl overflow-hidden shadow-lg">
+              <iframe 
+                src={videoUrl}
+                title={`Видеоотзыв ${i + 1}`}
+                className="w-full h-full"
+                allowFullScreen
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              ></iframe>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* КОНТАКТЫ */}
       <section id="contacts" className="py-24 bg-gray-900 text-white">
